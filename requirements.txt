@@ -9,6 +9,6 @@ seaborn
 plotly
 scikit-learn
 catboost==1.2.7
-opencv-python==4.8.1.78
+opencv-python-headless
 tqdm
 huggingface-hub==0.27.0
