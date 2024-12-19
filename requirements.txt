@@ -7,7 +7,7 @@ scipy==1.13.1
 matplotlib==3.9.0
 seaborn
 plotly==5.15.0
-sklearn
+scikit-learn
 catboost==1.2.7
 opencv-python==4.8.1.78
 tqdm
