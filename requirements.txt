@@ -1,0 +1,15 @@
+streamlit==1.29.0
+pandas==2.2.2
+numpy==1.26.4
+tifffile
+rasterio==1.4.3
+scipy==1.13.1
+matplotlib==3.9.0
+seaborn
+plotly==5.15.0
+sklearn
+catboost==1.2.7
+opencv-python==4.8.1.78
+tqdm
+huggingface-hub==0.27.0
+concurrent.futures
