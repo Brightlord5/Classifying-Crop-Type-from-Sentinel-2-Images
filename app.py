@@ -41,7 +41,7 @@ import tempfile
 from huggingface_hub import hf_hub_download, login
 import tempfile
 
-warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore", category=SyntaxWarning)
 
 login(token="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")  # Replace with your actual token
 
