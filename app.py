@@ -496,7 +496,7 @@ def fast_load_satellite_image(tile, date, base_path="data/ref_african_crops_keny
     try:
         with Timer(f"Loading satellite image for tile {tile}"):
             def read_band(band):
-                path = f"{base_path}/ref_african_crops_kenya_02_tile_{tile}_{date}/{band}.tif"
+                path = f"ref_african_crops_kenya_02_tile_{tile}_{date}/{band}.tif"
                 with rasterio.open(path) as src:
                     # Read at reduced resolution
                     img = src.read(1, out_shape=(src.height // scale_factor, src.width // scale_factor))
